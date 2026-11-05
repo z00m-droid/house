@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: ;
+}
+
+body{
+	font-family: "Arial", Courier, monospace;
+	color: #000000;
+	padding: 0;
+	background: #FFFFFF;
+}
+
+#container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#top{
+	width: 100%;
+	height: 193px;
+	text-align: center;
+}
+
+#top img{
+	display: block;
+	width: 100%;
+	height: auto;
+
+}
+
+
+
+#left_bar{
+	background: #cdffb5;
+	width: 25%;
+	height: 750px;
+	float: left;
+}
+
+#left_bar img{
+	width: 85%;
+	margin: 15px;
+	text-align: center;
+}
+
+#left_bar_text{
+	margin-left: 15px;
+	line-height: 1.5;
+}
+
+
+
+
+#main{
+	width: 75%;
+	height: 750px;
+	margin: 0 auto;
+	background: #ffffdf;
+	float: right;
+}
+
+
+#main p {
+	padding: 20px;
+}
+
+#main_left {
+	width: 335px;
+	height: 630px;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
+
+#main_right {
+	width: 335px;
+	height: 630px;
+	margin: 0 auto;
+	float: right;
+	text-align: center;
+}
+
+#block {
+	background: #f0f0f0;
+	width: 329px;
+	height: 310px;
+	margin: 3px;
+	float: left;
+}
+
+#block img {
+	width:250px;
+	height:150px;
+	margin: 5px;
+}
+
+
+
+#bar{
+	background: #e4e1ff;
+	width: 100%;
+	height: 65px;
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+}
+
+#bar p {
+	padding: 10px;
+}
+
+/* Переключение "страниц" внутри #main */
+#main .page {
+    display: none;
+}
+#main .page.active {
+    display: block;
+}
